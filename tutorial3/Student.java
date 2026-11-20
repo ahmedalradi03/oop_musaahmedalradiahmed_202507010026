@@ -1,0 +1,43 @@
+package tutorial3;
+
+public class Student {
+    // Private variables so students cannot change them directly
+    private String studentID;
+    private String name;
+    private double cgpa;
+    private String programme;
+
+    // Setters
+    public void setStudentID(String studentID) {
+        this.studentID = studentID;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setCGPA(double cgpa) {
+        this.cgpa = cgpa;
+    }
+
+    public void setProgramme(String programme) {
+        this.programme = programme;
+    }
+
+    // Getters
+    public String getStudentID() {
+        return studentID;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public double getCGPA() {
+        return cgpa;
+    }
+
+    public String getProgramme() {
+        return programme;
+    }
+}
